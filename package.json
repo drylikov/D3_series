@@ -1,0 +1,31 @@
+
+{
+  "name": "d3_series",
+  "version": "1.0.0",
+  "description": "D3 line series",
+  "author": "Denis Rylikov <denis.rylikov@protonmail.com>",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "make build"
+  },
+  "keywords": [
+    "d3",
+    "line",
+    "chart"
+  ],
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "react-fatigue-dev": "github:drylikov/react-fatigue-dev#704f778"
+  },
+  "dependencies": {
+    "d3": "^3.5.16"
+  },
+  "files": [
+    "build"
+  ]
+}
